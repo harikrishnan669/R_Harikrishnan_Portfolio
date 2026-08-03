@@ -12,9 +12,12 @@ export default function InteractiveTerminal() {
     },
   ]);
   const bottomRef = useRef(null);
+  const terminalRef = useRef(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (terminalRef.current) {
+      terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+    }
   }, [history]);
 
   const quickCommands = ['help', 'score', 'education', 'skills', 'projects', 'contact', 'sudo hire'];
@@ -126,7 +129,7 @@ Leadership : 95/100 (Ex-Chairperson IEEE SB RIT)`;
   return (
     <section id="terminal" className="py-24 bg-[#08080a] relative overflow-hidden">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#161618] border border-white/10 mb-4">
             <Terminal className="w-4 h-4 text-[#00d9f6]" />
@@ -143,7 +146,7 @@ Leadership : 95/100 (Ex-Chairperson IEEE SB RIT)`;
         </div>
 
         <div className="cred-card cred-card-glow rounded-3xl overflow-hidden border-white/15 shadow-2xl bg-[#09090b]">
-          
+
           <div className="bg-[#121215] border-b border-white/10 px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-[#ff5f56]" />
@@ -180,7 +183,8 @@ Leadership : 95/100 (Ex-Chairperson IEEE SB RIT)`;
             ))}
           </div>
 
-          <div className="p-6 font-mono text-xs sm:text-sm min-h-[300px] max-h-[420px] overflow-y-auto flex flex-col gap-3 text-slate-200">
+          <div ref={terminalRef}
+            className="p-6 font-mono text-xs sm:text-sm min-h-[300px] max-h-[420px] overflow-y-auto flex flex-col gap-3 text-slate-200">
             {history.map((item, idx) => (
               <div
                 key={idx}
@@ -189,7 +193,6 @@ Leadership : 95/100 (Ex-Chairperson IEEE SB RIT)`;
                 {item.text}
               </div>
             ))}
-            <div ref={bottomRef} />
           </div>
 
           <form

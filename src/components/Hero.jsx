@@ -61,7 +61,7 @@ export default function Hero() {
                 <img
                   src="/images/rhari.jpg"
                   alt="R Harikrishnan"
-                  className="w-full h-full object-cover rounded-2xl grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover rounded-2xl group-hover:grayscale-0 transition-all duration-500"
                 />
               </div>
             </div>
