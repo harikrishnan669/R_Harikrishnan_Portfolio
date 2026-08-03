@@ -11,7 +11,7 @@ export default function ProjectsShowcase() {
       subtitle: 'First Information Report (FIR) Generator and Legal Section Analyzer',
       description: 'Auralex is a legal technology platform engineered to analyze statutory sections and generate structured FIR documentation with high precision.',
       techStack: ['React', 'TypeScript', 'TailwindCSS', 'Python', 'Firebase'],
-      image: '/images/kronos.png',
+      image: '/images/auralexx.png',
       githubUrl: 'https://github.com/harikrishnan669/AURALEX',
       demoUrl: null,
       highlights: [
@@ -26,7 +26,7 @@ export default function ProjectsShowcase() {
       subtitle: 'AI YouTube Study Assistant Bot',
       description: 'Your personal study assistant! This bot makes learning easier by converting YouTube videos into summarized notes with key points and takeaways.',
       techStack: ['Python', 'Streamlit', 'YouTube API'],
-      image: '/images/synapse.png',
+      image: '/images/YTSummarizer.png',
       githubUrl: 'https://github.com/harikrishnan669/Youtube_summarizer',
       demoUrl: null,
       highlights: [
@@ -36,33 +36,32 @@ export default function ProjectsShowcase() {
       ],
     },
     {
-      id: 'ritu-2025',
-      title: 'RITU 25',
-      subtitle: 'Official Techno-Cultural Fest Portal of GEC RIT, Kottayam',
-      description: 'The official website for RITU 2025 (Techno-cultural fest of GEC RIT, Kottayam) handling event schedules, announcements, and registrations.',
-      techStack: ['React', 'TypeScript', 'TailwindCSS'],
-      image: '/images/cyberpay.png',
-      githubUrl: 'https://github.com/harikrishnan669/RITU-2025',
-      demoUrl: 'https://ritu-2025.vercel.app/',
+      id: 'FOOD AR',
+      title: 'FOOD AR',
+      subtitle: 'An AR-based app ',
+      description: 'FoodAR is a AR-based app allows customers to view 3D visualizations of Kerala dishes, showcasing their textures, ingredients, presentation in real-time using smartphones or tablets and also to submit reviews by the customers.',
+      techStack: ['Unity', 'Vuforia', 'Visual Studio', 'Blender', 'Firebase', 'C#'],
+      image: '/images/foodar.png',
+      githubUrl: 'https://github.com/harikrishnan669/FoodAR',
       highlights: [
-        'High performance reactive schedule & registration interface',
-        'Dynamic filtering for tech competitions & workshops',
-        'Vercel edge deployment with instant responsiveness',
+        'Vuforia image tracking for marker-based AR experiences',
+        '3D model rendering using Blender and imported to Unity',
+        'Firebase real-time database for user reviews & ratings',
       ],
     },
     {
-      id: 'blogging-website',
-      title: 'Blogging Website',
-      subtitle: 'Full Stack Blogging Platform',
-      description: 'Blog Website built as a part of Full Stack Web Development featuring post creation, user authentication, and responsive views.',
-      techStack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB'],
-      image: '/images/nebula.png',
-      githubUrl: 'https://github.com/harikrishnan669/Blogging-Website',
+      id: 'SpecBoot',
+      title: 'SpecBoot',
+      subtitle: 'An AI-powered desktop assistant',
+      description: 'SpecBoot is an AI-powered desktop assistant designed to remind users to wear spec/glasses while using their laptop. The application automatically starts when the system turns on or wakes from sleep, temporarily accesses the webcam, detects whether the user is wearing glasses using AI, and alerts the user if glasses are not detected.',
+      techStack: ['HTML', 'CSS', 'JavaScript', 'Electron', 'Teachable-Machine', 'Tensorflow'],
+      image: '/images/specboot.png',
+      githubUrl: 'https://github.com/harikrishnan669/SpecBoot',
       demoUrl: null,
       highlights: [
-        'RESTful API architecture built on Node.js and Express',
-        'MongoDB document storage for users, posts, and comments',
-        'JWT secure authentication',
+        'Automated real-time glasses detection using computer vision',
+        'Cross-platform desktop application built with Electron',
+        'Tensorflow.js & Teachable Machine for on-device AI inference',
       ],
     },
     {
@@ -71,7 +70,7 @@ export default function ProjectsShowcase() {
       subtitle: 'React Movie Streaming UI Clone',
       description: 'A Simple Netflix clone built using React, movie trailer popups, category carousels, and live movie API integration.',
       techStack: ['React', 'JavaScript', 'TailwindCSS'],
-      image: '/images/cyberpay.png',
+      image: '/images/clone.png',
       githubUrl: 'https://github.com/harikrishnan669/Netflix-clone',
       demoUrl: 'https://netflix-clone-kappa-pied.vercel.app/',
       highlights: [
@@ -86,12 +85,11 @@ export default function ProjectsShowcase() {
       subtitle: 'Campus Navigation & AR Guide',
       description: 'Interactive campus navigation & guidance web app for students and visitors at RIT Kottayam.',
       techStack: ['React', 'JavaScript', 'WebGL / AR', 'Google Maps API'],
-      image: '/images/nebula.png',
-      githubUrl: 'https://github.com/harikrishnan669/FoodAR-Owner',
-      demoUrl: 'https://harikrishnan669.github.io/FoodAR-Owner/',
+      image: '/images/ritcompass.png',
+      githubUrl: 'https://github.com/harikrishnan669/RITCompass-FE',
+      demoUrl: 'https://rit-compass.vercel.app/',
       highlights: [
-        'Google Maps API custom overlay integration',
-        'Direction markers for campus landmarks and department blocks',
+        'Interactive campus navigation & guidance web app',
       ],
     },
     {
@@ -100,7 +98,7 @@ export default function ProjectsShowcase() {
       subtitle: 'Python Billing & Stock Management',
       description: 'A Management system built using Tkinter which is mainly used for billing system to add and update the product stock.',
       techStack: ['Python', 'Tkinter', 'MySQL'],
-      image: '/images/synapse.png',
+      image: '/images/supermarket.png',
       githubUrl: 'https://github.com/harikrishnan669/Supermarket_management_system',
       demoUrl: null,
       highlights: [
@@ -114,7 +112,7 @@ export default function ProjectsShowcase() {
       subtitle: 'Graphic Design & UI/UX Portfolio Showcase',
       description: 'A website to showcase my design works done using Adobe Photoshop, Figma, and Canva.',
       techStack: ['HTML', 'CSS', 'JavaScript'],
-      image: '/images/kronos.png',
+      image: '/images/designv.png',
       githubUrl: 'https://github.com/harikrishnan669/Design_Works',
       demoUrl: 'https://harikrishnan669.github.io/Design_Works/',
       highlights: [
@@ -127,7 +125,7 @@ export default function ProjectsShowcase() {
   return (
     <section id="projects" className="py-20 bg-[#09090b] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-left max-w-3xl mb-12">
           <span className="font-mono text-xs font-semibold text-zinc-400 uppercase tracking-widest">
             FEATURED WORKS

@@ -25,14 +25,13 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-[#000000]/90 backdrop-blur-md border-b border-white/10 py-3 shadow-xl'
           : 'bg-transparent py-5'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        
+
         {/* Brand Logo */}
         <a href="#home" className="flex items-center gap-3 group focus:outline-none">
           <div className="w-10 h-10 rounded-xl bg-[#141416] border border-white/20 flex items-center justify-center font-display font-black text-white text-base group-hover:border-white transition-colors">
@@ -43,7 +42,7 @@ export default function Navbar() {
               R HARIKRISHNAN
             </span>
             <span className="text-[11px] font-mono text-zinc-400">
-              Computer Science & Engineering
+              Software Engineer
             </span>
           </div>
         </a>

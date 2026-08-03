@@ -10,7 +10,7 @@ export default function EducationSection() {
       period: '2022 — 2026',
       degree: 'B.Tech in Computer Science and Engineering (CSE)',
       grade: 'CGPA: 8.08',
-      tag: 'Prestigious Government Engineering College',
+      tag: 'Government Engineering College',
       summary: 'I completed my Bachelor of Technology (B.Tech) in Computer Science and Engineering from Rajiv Gandhi Institute of Technology (RIT), Kottayam, a prestigious government engineering college. During my academic journey, I built a strong foundation in computer science while developing practical skills through projects, technical activities, and collaborative learning, preparing me for a career in the technology industry.',
       moreContent: 'Completing this program marked a significant milestone in my academic journey. Throughout my time at the institution, I deepened my knowledge of computer science, explored emerging technologies, and strengthened my problem-solving abilities under the guidance of experienced faculty members.',
     },
@@ -37,7 +37,7 @@ export default function EducationSection() {
   return (
     <section id="education" className="py-20 bg-[#09090b] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-left max-w-3xl mb-12">
           <span className="font-mono text-xs font-semibold text-zinc-400 uppercase tracking-widest">
             ACADEMIC BACKGROUND
