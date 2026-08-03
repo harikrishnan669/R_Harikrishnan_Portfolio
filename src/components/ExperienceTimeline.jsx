@@ -32,13 +32,13 @@ export default function ExperienceTimeline() {
   return (
     <section id="experience" className="py-20 bg-[#000000] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-left max-w-3xl mb-12">
           <span className="font-mono text-xs font-semibold text-zinc-400 uppercase tracking-widest">
             WORK & RESPONSIBILITIES
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-white mt-1">
-            My <span className="text-zinc-400">Experience</span>.
+            My <span className="text-[#65D9ff]">Experience</span>.
           </h2>
         </div>
 

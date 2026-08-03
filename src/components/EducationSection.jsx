@@ -43,7 +43,7 @@ export default function EducationSection() {
             ACADEMIC BACKGROUND
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-white mt-1">
-            My <span className="text-zinc-400">Education</span>.
+            My <span className="text-[#65D9ff]">Education</span>.
           </h2>
         </div>
 

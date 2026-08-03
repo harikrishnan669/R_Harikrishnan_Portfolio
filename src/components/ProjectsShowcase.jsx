@@ -131,7 +131,7 @@ export default function ProjectsShowcase() {
             FEATURED WORKS
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-white mt-1">
-            My <span className="text-zinc-400">Projects</span>.
+            My <span className="text-[#65D9ff]">Projects</span>.
           </h2>
           <p className="text-zinc-400 text-xs sm:text-sm mt-1">
             Click on any project to view details & key highlights.

@@ -41,9 +41,9 @@ export default function ContactSection({ onShowToast }) {
   return (
     <section id="contact" className="py-20 bg-[#000000] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
-          
+
           {/* Left Column: Direct Info & Social Channels */}
           <div className="lg:col-span-5 flex flex-col gap-6">
             <div>
@@ -51,7 +51,7 @@ export default function ContactSection({ onShowToast }) {
                 GET IN TOUCH
               </span>
               <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-white mt-1">
-                Contact <span className="text-zinc-400">Me</span>.
+                Contact <span className="text-[#65D9ff]">Me</span>.
               </h2>
             </div>
 

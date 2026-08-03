@@ -32,13 +32,13 @@ export default function AreasOfInterest() {
   return (
     <section id="interest" className="py-20 bg-[#09090b] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-left max-w-3xl mb-12">
           <span className="font-mono text-xs font-semibold text-zinc-400 uppercase tracking-widest">
             CORE DOMAINS
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-white mt-1">
-            Areas of <span className="text-zinc-400">Interests</span>.
+            Areas of <span className="text-[#65D9ff]">Interests</span>.
           </h2>
         </div>
 

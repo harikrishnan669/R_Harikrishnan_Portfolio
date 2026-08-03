@@ -193,6 +193,7 @@ Leadership : 95/100 (Ex-Chairperson IEEE SB RIT)`;
                 {item.text}
               </div>
             ))}
+            <div ref={bottomRef} />
           </div>
 
           <form

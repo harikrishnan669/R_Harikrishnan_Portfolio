@@ -78,7 +78,7 @@ export default function Hero() {
             </div>
 
             <h1 className="font-display text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
-              Hi, I am <span className="text-zinc-400">R Harikrishnan</span>.
+              Hi, I am <span className="text-[#65D9ff]">R Harikrishnan</span>.
             </h1>
 
             <div className="text-zinc-300 text-sm sm:text-base font-normal leading-relaxed flex flex-col gap-3 max-w-3xl">
