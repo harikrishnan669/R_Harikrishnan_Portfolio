@@ -71,7 +71,7 @@ export default function Hero() {
           <div className="lg:col-span-8 flex flex-col gap-6 text-left">
 
             <div className="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-[#121215] border border-white/15">
-              <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#65D9ff] animate-pulse" />
               <span className="text-xs font-mono font-medium text-zinc-300">
                 B.Tech CSE Graduate • RIT Kottayam
               </span>
